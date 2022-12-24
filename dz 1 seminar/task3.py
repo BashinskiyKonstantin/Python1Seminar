@@ -18,13 +18,14 @@ def inputCoordinates(n):
 
 def checkCoordinates(xy):
     if xy[0] != 0 and xy[1] != 0:
-        quarter = "четвертой"
         if xy[0] > 0 and xy[1] > 0:
-            quarter = "первой"
+            quarter = 1
         elif xy[0] < 0 and xy[1] > 0:
-            quarter = "второй"
+            quarter = 2
         elif xy[0] < 0 and xy[1] < 0:
-            quarter = "третьей"
+            quarter = 3
+        elif xy[0] > 0 and xy[1] < 0:
+            quarter = 4
         print(f"Точка ({xy[0]}, {xy[1]}) находится в {quarter} четверти плоскости")
     else:
         print(f"Значение координат X:({xy[0]}) и Y:({xy[1]}) не должны равняться нулю!")
