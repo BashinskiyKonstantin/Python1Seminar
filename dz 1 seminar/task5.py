@@ -14,7 +14,7 @@ def inputCoordinates(n):
     return list
 
 def CoordinateDistance(list):
-    result = ((list[2] - list[0]) ** 2 + (list[3] - list[1]) ** 2) ** (0.5)
+    result = ((list[2] - list[0]) ** 2 + (list[3] - list[1]) ** 2) ** 0.5
     return result
 
 
