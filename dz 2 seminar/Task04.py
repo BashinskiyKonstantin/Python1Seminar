@@ -17,8 +17,8 @@ data = open(file, 'r')
 for line in data:
     listdata.append(int(line))
 data.close()
-result=1
+result = 1
 for i in range(len(listdata)):
-   listdata [i]=(list[listdata[i]])
-   result = int (listdata[i] *result)
-print (f'Произведение элементов на указанных позициях: {result}')
+    listdata[i] = (list[listdata[i]])
+    result = int(listdata[i] * result)
+print(f'Произведение элементов на указанных позициях: {result}')
