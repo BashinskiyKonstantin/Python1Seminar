@@ -13,4 +13,3 @@ for i in range(len(listInSum)):
     sum = listInSum[i] + sum
 print(list)
 print(f"Сумма элементов на нечетных позициях равна: {sum}")
-
